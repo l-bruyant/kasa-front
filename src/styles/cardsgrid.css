@@ -1,0 +1,10 @@
+.cardsGrid {
+    background-color: #F6F6F6;
+    margin: 20px 100px;
+    min-height: 400px;
+    border-radius: 25px;
+    display: flex;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

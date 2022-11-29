@@ -1,0 +1,16 @@
+.placeTitle h1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #FF6060;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.placeTitle div {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #FF6060;
+    font-size: 18px;
+    margin: 8px 0px 20px 0px;
+    padding: 0;
+    font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.kasa-nav-list {
+    display: flex;
+   list-style: none;
+}
+
+.kasa-nav-button {
+    color: #FF6060;
+    font-size: 24px;
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
