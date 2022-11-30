@@ -3,10 +3,14 @@
    list-style: none;
 }
 
-.kasa-nav-button {
+nav a {
     color: #FF6060;
     font-size: 24px;
     margin-left: 60px;
     text-decoration: none;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.active {
+    text-decoration: underline;
 }

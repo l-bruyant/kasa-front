@@ -12,6 +12,14 @@
     max-width: 1024px;
 }
 
+.topicsContainer .accordionTitle {
+    font-size: 24px;
+}
+
+.topicsContainer .accordionContent.show {
+    font-size: 24px;
+}
+
 .bannerBackgroundAbout {
     object-fit: cover;
     height: 223px;
