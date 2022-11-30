@@ -13,3 +13,7 @@ html {
     padding: 0;
     font-family: "Montserrat", Arial;
 }
+
+.main-wrapper {
+    min-height: 75vh;
+}
