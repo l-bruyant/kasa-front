@@ -1,0 +1,18 @@
+.placeDetailsContainer {
+    margin: 0px 100px 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeDetailsDescription {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 48%;
+
+}
+
+.placeDetailsEquipments {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 48%;
+}

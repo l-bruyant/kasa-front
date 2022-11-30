@@ -1,0 +1,20 @@
+.placeOwner {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.placeOwnerName {
+    font-size: 18px;
+    text-align: right;
+    color: #FF6060;
+    max-width: 115px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.placeOwnerPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+}

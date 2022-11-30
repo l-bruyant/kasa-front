@@ -1,0 +1,18 @@
+.placeTags {
+    display: flex
+}
+
+.tag {
+    background-color: #FF6060;
+    color: white;
+    min-width: 115px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}

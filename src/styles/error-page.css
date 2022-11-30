@@ -1,0 +1,31 @@
+#error-page {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#error-page h1 {
+    font-weight: 700;
+    color: #FF6060;
+    font-size: 288px;
+    text-align: center;
+    margin: 190px 0px 0px 0px;
+}
+
+#error-page p {
+    font-weight: 500;
+    color: #FF6060;
+    font-size: 36px;
+    text-align: center;   
+    margin: 66px 0px 182px 0px;
+}
+
+#error-page a {
+    font-weight: 500;
+    color: #FF6060;
+    font-size: 18px;
+    text-align: center;   
+    margin: 0px 0px 159px 0px;
+
+}

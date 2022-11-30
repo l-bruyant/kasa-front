@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom'
 import PlaceHeader from '../components/placeheader'
+import PlaceDetails from '../components/placedetails'
 import "../styles/place.css"
 
 export default function Place() {
@@ -11,6 +12,7 @@ export default function Place() {
                 <img src={place.pictures[0]} alt="" className="sliderPicture"/>
             </div>
             <PlaceHeader place={place} /> 
+            <PlaceDetails place={place} /> 
         </section>
     )
 }

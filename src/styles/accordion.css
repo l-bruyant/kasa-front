@@ -1,0 +1,15 @@
+.accordionTitle {
+    background-color: #FF6060;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 18px
+}
+.accordionContent {
+    background-color: #F7F7F7;
+    color: #FF6060;
+    border-radius: 10px;
+    padding: 40px 20px;
+    line-height: 142.6%;
+    font-size: 18px
+}

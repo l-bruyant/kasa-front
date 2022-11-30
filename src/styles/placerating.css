@@ -1,0 +1,7 @@
+.ratingStars {
+    margin: 24px 0px;
+}
+
+.ratingStars > * {
+    margin: 5px;
+}

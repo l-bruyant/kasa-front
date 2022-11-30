@@ -1,3 +1,6 @@
 .placeHeader {
     margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
 }
