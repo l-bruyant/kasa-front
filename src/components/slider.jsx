@@ -10,8 +10,21 @@ export default function Slider(props) {
     const length = images.length
     const [current, setCurrent] = useState(0)
 
-    if(!Array.isArray(images) || images.length <= 0) {
+    if(!Array.isArray(images) || length <= 0) {
         return null
+    }
+
+    if(length === 1) {
+        return (
+            <div className="slider">
+
+            {images.map((slide, index) => 
+                <div className={index === current ? 'slide active' : 'slide' } key={index}>
+                    {index === current && (<img src={slide} alt="" className="sliderImage"/>)}
+                </div>            
+            )}
+            </div>
+        )
     }
 
     // looping 
