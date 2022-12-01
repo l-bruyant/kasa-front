@@ -9,12 +9,14 @@ export default function Place() {
     const location = useLocation()
     const { place } = location.state
     return (
-        <section className="placeWrapper">
-            <ScrollToTop />
-            <Slider place={place} />
-            <PlaceHeader place={place} /> 
-            <PlaceDetails place={place} /> 
-        </section>
+        <div className="main-wrapper">
+            <section className="placeWrapper">
+                <ScrollToTop />
+                <Slider place={place} />
+                <PlaceHeader place={place} /> 
+                <PlaceDetails place={place} /> 
+            </section>
+        </div>
     )
 }
 

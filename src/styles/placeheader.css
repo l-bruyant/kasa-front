@@ -1,6 +1,20 @@
 .placeHeader {
-    margin: 20px 100px;
+    margin: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: top;
+}
+
+@media screen and (max-width:770px) {
+    .placeHeader {
+        flex-direction: column;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .ownerAndRating {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
 }

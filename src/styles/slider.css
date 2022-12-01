@@ -11,7 +11,7 @@
     position: absolute;
     z-index: 9;
     color: white;
-    font-size: 24;
+    font-size: 24px;
     bottom: 25px;
 }
 
@@ -60,3 +60,36 @@
     width: 100%;
 }
 
+@media screen and (max-width:770px) {
+    .slider {
+        height: 225px;
+    }
+    .sliderImage {
+        height: 225px;
+        border-radius: 10px;
+    }
+    .slide.active {
+        height: 225px;
+        border-radius: 10px;
+    }
+    .rightArrow {
+        top: 48%;
+        width: 12px;
+        height: 20px;
+        right: 8px;
+    }
+    
+    .leftArrow {
+        top: 48%;
+        width: 12px;
+        height: 20px;
+        left: 8px;
+    }
+    .sliderIndex {
+        position: absolute;
+        z-index: 9;
+        color: white;
+        font-size: 16px;
+        bottom: 12px;
+    }
+}

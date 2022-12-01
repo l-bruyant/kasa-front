@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
 .bannerBackground {
@@ -26,4 +27,24 @@
     margin: auto;
     text-align: center;
     width: 100%;
+}
+
+
+@media screen and (max-width:770px) {
+	.bannerText {
+        font-size: 24px;
+        text-align: left;  
+        padding: 0px 0px 0px 26px;
+    }
+    .bannerBackground {
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+    .banner {
+        height: 111px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 335px;
+        margin: 20px 0px;
+    }
 }

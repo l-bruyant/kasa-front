@@ -1,5 +1,6 @@
 .placeTags {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tag {
@@ -15,4 +16,14 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
+}
+
+@media screen and (max-width:770px) {
+    .tag {
+        min-width: 84px;
+        margin: 4px 10px 0px 0px;
+        border-radius: 5px;
+        height: 18px;
+        font-size: 10px;
+    }
 }

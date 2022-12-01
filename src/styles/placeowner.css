@@ -18,3 +18,13 @@
     height: 64px;
     border-radius: 999px;
 }
+
+@media screen and (max-width:770px) {
+    .placeOwnerName {
+        font-size: 12px;
+    }
+    .placeOwnerPicture {
+        width: 32px;
+        height: 32px;
+    }
+}

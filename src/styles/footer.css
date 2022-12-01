@@ -20,3 +20,14 @@
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
+
+@media screen and (max-width:770px) {
+    .kasa-footer-text {
+        font-size: 12px;
+    }
+    .kasa-footer {
+        min-height: 210px;
+        padding: 30px 0px 30px 0px;
+    }
+    
+}

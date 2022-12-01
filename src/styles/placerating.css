@@ -1,7 +1,21 @@
 .ratingStars {
     margin: 24px 0px;
+    min-width: 200px;
 }
 
 .ratingStars > * {
     margin: 5px;
+}
+
+@media screen and (max-width:770px) {
+    .ratingStars {
+        min-width: 110px;
+    }
+    .ratingStars > * {
+        margin: 2px;
+    }
+    .ratingStars > * > * {
+        height: 15px;
+        width: 15px;
+    }
 }

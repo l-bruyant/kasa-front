@@ -1,18 +1,50 @@
 .placeDetailsContainer {
-    margin: 0px 100px 40px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .placeDetailsDescription {
     flex-grow: 1;
     flex-basis: 0;
     max-width: 48%;
-
 }
 
 .placeDetailsEquipments {
     flex-grow: 1;
     flex-basis: 0;
     max-width: 48%;
+}
+
+@media screen and (max-width:770px) {
+    .placeDetailsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .placeDetailsContainer .accordion {
+        padding: 0;
+        margin: 20px 0px;
+    }
+
+    .placeDetailsContainer .accordionContent {
+        font-size: 12px;
+    }
+
+    .placeDetailsDescription {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .placeDetailsEquipments {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
 }

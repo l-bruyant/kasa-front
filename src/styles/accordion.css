@@ -25,7 +25,7 @@
 }
 
 .accordionContent.hide {
-    visibility: hidden;
+    display: none;
 }
 
 .up {
@@ -36,4 +36,33 @@
 .down {
     transform: rotate(180deg);
     transition: 0.3s ease;
+}
+
+.accordion {
+    width: 100%;
+    margin: 25px 00px;
+}
+
+@media screen and (max-width:770px) {
+    .accordion {
+        margin: 15px 10px;
+    }
+    .up {
+        transform: scale(0.7) rotate(0);
+        transition: 0.3s ease;
+    }
+    
+    .down {
+        transform: scale(0.7) rotate(180deg);
+        transition: 0.3s ease;
+    }
+
+    .accordionTitle {
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .accordionContent.show {
+        padding: 17px 11px;
+    }
 }

@@ -4,11 +4,9 @@ import Footer from "../components/footer"
 
 export default function Root() {
     return (
-    <div>
+    <div id='app-content'>
         <Header />
-            <div className='main-wrapper'>
                 <Outlet />
-            </div>
         <Footer />
     </div>
     )
