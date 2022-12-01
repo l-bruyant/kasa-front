@@ -35,7 +35,6 @@
         height: 223px;
     }
     .topicsContainer > * {
-        max-width: 335px;
         margin: 25px 10px;
     }
     .topicsContainer .accordionTitle {
