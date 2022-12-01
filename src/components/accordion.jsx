@@ -5,7 +5,7 @@ import arrowUp from "../assets/arrow-up.svg"
 
 export default function Accordion(props) {
 
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     return (
         <div className="accordion">
