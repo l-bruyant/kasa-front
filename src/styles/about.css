@@ -1,5 +1,5 @@
 .FAQcontainer {
-    padding: 20px 100px;
+    padding: 0px 100px 20px 100px;
     max-width: 1440px;
     margin: auto;
     display: flex;
@@ -20,10 +20,6 @@
     font-size: 24px;
 }
 
-.bannerBackgroundAbout {
-    object-fit: cover;
-    height: 223px;
+.FAQcontainer .banner {
     width: 100%;
-    border-radius: 25px;
-    filter: brightness(0.7);
 }
