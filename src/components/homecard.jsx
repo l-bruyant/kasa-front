@@ -8,7 +8,7 @@ export default function HomeCard(props) {
 
     return (
         <div className="homeCard">
-            <Link to={`/place-${placeId}`} state={{ place: props.place}} className="homeCardLink">
+            <Link to={`/place/${placeId}`} className="homeCardLink">
                 <div className="homeCardOverlay"></div>       
                 <img src={placeCover} alt="" className="homeCardBackground"/>
                 <div className="homeCardTitle">{placeTitle}</div>

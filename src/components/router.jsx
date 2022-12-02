@@ -24,13 +24,18 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/:placeId",
-        element: <Place />,
+        path: "about/",
+        element: <About />,
         errorElement: <ErrorPage />,
       },
       {
-        path: "about/",
-        element: <About />,
+        path: "/place/:placeId",
+        element: <Place/>,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />,
         errorElement: <ErrorPage />,
       },
     ],
