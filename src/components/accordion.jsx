@@ -11,7 +11,7 @@ export default function Accordion(props) {
         <div className="accordion">
             <div className="accordionTitle" onClick={() => {setOpen(!open)}}>
                 {props.title}
-                <img src={arrowUp} alt='' className={open? 'down' : 'up'} />
+                <img src={arrowUp} alt='' className={open? 'up' : 'down'} />
             </div>
             <div className={`accordionContent ${open? 'show' : 'hide'}`}>{props.content}</div>
         </div>

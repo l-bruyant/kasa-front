@@ -10,6 +10,16 @@ export default function Slider(props) {
     const length = images.length
     const [current, setCurrent] = useState(0)
 
+    // looping 
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1)
+    }
+
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length - 1 : current - 1)
+    }
+    // -- 
+
     if(!Array.isArray(images) || length <= 0) {
         return null
     }
@@ -26,16 +36,6 @@ export default function Slider(props) {
             </div>
         )
     }
-
-    // looping 
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1)
-    }
-
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1)
-    }
-    // -- 
 
     return (
             <div className="slider">
